@@ -4,7 +4,7 @@ Even though LightGBM and XGBoost are both asymmetric trees, LightGBM grows leaf-
 
 
 ## Leaf vs. Level-wise Growth
-![leaf-vs-level](/images\leaf-wise-vs-level-wise.png "Leaf vs. Level-wise Growth")
+![leaf-vs-level](/images/leaf-wise-vs-level-wise.png "Leaf vs. Level-wise Growth")
 
 ## Parameters
 ![localImage](/images/boosting-params-by-model.png "Comparison of Boosting Parameters")
