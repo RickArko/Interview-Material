@@ -1,14 +1,41 @@
 # Forecasting Error Metrics
 Description and formulation for various forecasting metrics and a discussion of the use cases, benefits and drawbacks.
 
-## MAE (Mean Absolute Error)
+![image](/images/time-series-error-metrics.png)
 
-## MD (Mean Deviance)
+## Scale Dependent Metrics
+Scale-dependent means the error metrics are expressed in the units (i.e. dollars, inches, etc.). The main advantage is ease of use and interpretability. These cannot be used to compare different series.
 
-## MAPE (Mean Absolute Percentage Error)
+## Mean Deviance or Bias (MD)
 
-## sMAPE (symetric Mean Absolute Percentage Error)
+$$
+    MD = \frac{1}{n} \sum_{1}^{n}\hat{y}_i - y_i
+$$
 
-## MASE (Mean Abs Scaled Error)
+## Mean Absolute Error (MAE)
 
-## wMAPE (Weighted Mean Absolute Percentage Error)
+$$
+    MAE = \frac{1}{n} \sum_{1}^{n}|y_i - \hat{y}_i|
+$$
+
+## Root Mean Squared Error (RMSE)
+
+$$
+    RMSE = \sqrt {\frac{1}{n} \sum_{1}^{n}(\hat{y}_i - y_i)^2}
+$$
+
+## Mean Absolute Percentage Error (MAPE)
+
+$$
+    MAPE = \frac{1}{n} \sum_{1}^{n}|\frac{ \hat{y}_i - y_i} {y_i} * 100|
+$$
+## Symentric Mean Absolute Percentage Error (sMAPE)
+
+## Mean Absolute Scaled Error (MASE)
+
+## Weighted Mean Absolute Percentage Error (wMAPE)
+
+
+
+### Resources
+- [time-series-forecast-error-metrics](https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27)
