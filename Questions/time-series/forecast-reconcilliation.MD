@@ -13,7 +13,7 @@ Reconcilliation Methods:
    - JPP
    - OLS
    - MinT (Shrink)
-   - Score Optimal Reconcilliation\
+   - Score Optimal Reconcilliation
 
 
 ## Packages:
