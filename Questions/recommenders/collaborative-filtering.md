@@ -15,3 +15,4 @@ Uses similarities between users and items to provide recommendations. This allow
 - [google-developer-guide](https://developers.google.com/machine-learning/recommendation/collaborative/basics)
 - [kaggle-deep-dive](https://www.kaggle.com/code/jhoward/collaborative-filtering-deep-dive)
 - [example-python](https://realpython.com/build-recommendation-engine-collaborative-filtering/)
+- [matrix-factorization-from-scratch](https://towardsdatascience.com/recommender-systems-matrix-factorization-using-pytorch-bd52f46aa199)
