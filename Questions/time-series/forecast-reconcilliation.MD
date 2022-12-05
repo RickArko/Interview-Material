@@ -22,8 +22,8 @@ Reconcilliation Methods:
   - fable
 
 ### Python:
-  - scikit-hts
-
+  - [scikit-hts](https://github.com/carlomazzaferro/scikit-hts)
+  - [Nixtla/hierarchicalforecast](https://github.com/Nixtla/hierarchicalforecast)
 
 
 ## Resources:
